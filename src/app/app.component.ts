@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'lv-porfolio-v0.1';
+  title = 'lv-porfolio';
 }
