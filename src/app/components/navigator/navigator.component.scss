@@ -1,0 +1,24 @@
+@use '../../../assets/app-colors/app-color' as appColor;
+$primary-color: appColor.$primary-color;
+
+.navigator-body {
+    border-bottom: 5px solid $primary-color;
+    margin: 0 12em 0 12em;
+}
+
+.home-link a {
+    font-size: 2.5em;
+    color: #ffff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 1em;
+    text-shadow: 1px 1px 2px $primary-color, 0 0 1em $primary-color, 0 0 0.2em $primary-color;
+ }
+ 
+.nav-link {
+    background-color: $primary-color;
+    border-radius: 12px;
+    margin: 15px 10px 0px 10px;
+    color: #ffff;
+}
+

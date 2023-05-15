@@ -1,0 +1,43 @@
+@use '../../../../assets/app-colors/app-color';
+
+$primary-color: app-color.$primary-color;
+
+.profile-picture {
+    border-radius: 300px;
+    margin: 0 auto 0 auto;
+    display: block;
+    box-shadow:  0 0 60px $primary-color;
+}
+
+.presentation-intro {
+    text-align: right;
+    font-size: 28px;
+    height: 50%;
+    margin-top: 16%;
+    margin-right: 10%;
+}
+
+.presentation-intro h1{
+    color: $primary-color;
+    margin-bottom: 30px;
+}
+
+.profile-picture-container {
+    height: 60%;
+    padding-top: 10%;
+}
+
+.presentation-body p {
+    font-size: 28px;
+    margin-left: 10%;
+}
+
+.resume-download-container button {
+    font-size: 28px;
+    height: 80px;
+    width: 320px;
+    margin: 0 auto 0 auto;
+    display: block;
+    background-color: $primary-color;
+}
+
